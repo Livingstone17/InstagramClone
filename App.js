@@ -16,3 +16,7 @@ const App = () =>{
 }
 
 document.getElementById('root').innerHTML = App();
+
+// Todo tomorrow.
+// ***** Add functionality to upload and read image files and then 
+// see those uploaded images added to your posts grid ********
