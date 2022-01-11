@@ -163,5 +163,9 @@ nav{
 .posts img{
     width: 280px;
     height: 380px;
-    /* margin-top: 15px; */
+    transition: all .3s ease-out;
+}
+.posts img:hover{
+    opacity: 0.8;
+    cursor: pointer;
 }
