@@ -2,6 +2,11 @@
 const Gallery = () => {
 
 return `
+<input type="file" name="foto" id="addFotoInput"> 
+<label for="addFotoInput">
+<i class="add-foto fa fa-plus-square" aria-hidden="true"></i>
+</label>
+
 <section class="gallery">
     <div class="post-nav">
         <a href="#" class="post-link active"><i class="fa fa-table" aria-hidden="true"></i> POSTS</a>

@@ -129,6 +129,16 @@ nav{
 .gallery{
 
 }
+.add-foto{
+    transform: scale(3);
+    position: fixed;
+    bottom: 6em;
+    right: 8em;
+    cursor: pointer;
+}
+#addFotoInput{
+    display: none;
+}
 .gallery .post-nav{
     padding: 0 20%;
     margin-top: 6px;
