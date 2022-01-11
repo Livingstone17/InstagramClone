@@ -1,0 +1,167 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #fafafa;
+}
+nav{
+    background: #fff;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 3.3em;
+    line-height: 3.3em;
+    border-bottom: 0.1px solid #dbdbdb;
+}
+.logo{
+    text-decoration: none;
+}
+.logo>img{
+    vertical-align: middle;
+}
+.search{
+    border-radius: 5px;
+    border: 1px solid #dbdbdb;
+    text-align: center;
+    height: 2.5em;
+    width: 18em;
+    margin-top: 10px;
+    background: #fafafa;
+}
+.search:placeholder{
+    text-align: center;
+    color: #808080;
+} 
+
+.nav-links>a{
+    margin-left: 1.5em;
+}
+.nav-links i{
+    transform: scale(1.4);
+    color: #252525;
+    vertical-align: middle;
+}
+
+.container{
+    padding: 0 15%;
+}
+.bio{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    height: 14em;
+    /* padding: 3em 0 0 5em; */
+    border-bottom: 0.2px solid #dbdbdb;
+    margin-top: 0px;
+}
+
+.profile-photo{
+    margin-top: 0px ;
+    margin-left: 60px;
+    padding: 15px;
+}
+.profile-photo img{
+    width: 160px;
+    height: 160px;
+    border: 3px solid #dbdbdb;
+    border-radius: 80px;
+    margin-top: 0px;
+}
+.user-info{
+    margin-top: 20px;
+    margin-left: 0px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: 150px;
+}
+.nameFollow{
+    margin-left: 25px;
+}
+.username{
+    font-family: 'century gothic';
+    text-transform: lowercase;
+}
+.username span{
+    margin-left: 15px;
+}
+.username span i{
+    margin-left: 10px;
+}
+.username button{
+    background: #0095f6;
+    height: 30px;
+    width: 80px;
+    border: none;
+    border-radius: 2px;
+    color: #fff;
+    margin-left: 10px;
+}
+.other-info{
+    margin-left: 25px;
+    width: 350px;
+    display: grid;
+    grid-template-columns: .8fr 1fr 1fr;
+}
+.other-info p{
+    font-weight: 600;
+    font-family: 'century gothic';
+}
+.other-info span{
+    font-weight: 400;
+    font-size: small;
+}
+.name{
+    font-weight: 600;
+    margin-left: 25px;
+}
+.followedBy{
+    color: #dbdbdb;
+    margin-left: 25px;
+}
+.followedBy span{
+    color: #000;
+}
+
+.gallery{
+
+}
+.gallery .post-nav{
+    padding: 0 20%;
+    margin-top: 6px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.post-nav>a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.5);
+    font-family: 'century gothic';
+    font-size: 13px;
+    height: 3em;
+    transition: all .3s ease-out;
+}
+.post-nav a:hover{
+    color: brown;
+}
+.active{
+    font-weight: 600;
+    color: #000 !important;
+}
+.posts{
+    margin-top: 0px;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;  
+    row-gap: 25px;
+}
+.posts img{
+    width: 280px;
+    height: 380px;
+    /* margin-top: 15px; */
+}
